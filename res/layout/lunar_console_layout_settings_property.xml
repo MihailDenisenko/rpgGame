@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:id="@id/lunar_console_action_entry_layout" android:background="@color/lunar_console_color_cell_background_dark" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:id="@id/lunar_console_settings_property_lock_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/lunar_console_icon_button_lock" style="@style/lunar_console_base_button_style" />
+    <TextView android:id="@id/lunar_console_settings_property_name" android:layout_width="0.0dp" android:layout_weight="1.0" style="@style/lunar_console_variable_style" />
+    <EditText android:id="@id/lunar_console_settings_property_value" android:imeOptions="actionDone" style="@style/lunar_console_variable_value_style" />
+    <Button android:id="@id/lunar_console_settings_property_button" style="@style/lunar_console_variable_value_style" />
+    <spacemadness.com.lunarconsole.ui.Switch android:id="@id/lunar_console_settings_property_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/lunar_console_switch_style" />
+</LinearLayout>

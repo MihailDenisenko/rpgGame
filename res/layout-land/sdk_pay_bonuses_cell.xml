@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/sdk_pay_bonuses_cell_layout" android:paddingLeft="@dimen/sdk_pay_spacer_l" android:paddingRight="@dimen/sdk_pay_spacer_l" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/sdk_pay_spacer_l"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Space android:id="@id/sdk_pay_bonuses_top_space" android:layout_width="match_parent" android:layout_height="0.0dp" />
+    <View android:layout_gravity="center_vertical" android:id="@id/sdk_pay_bonuses_divider" android:background="?sdk_pay_divider_primary" android:layout_width="match_parent" android:layout_height="1.0dp" />
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sdk_pay_spacer_xs" android:layout_marginBottom="@dimen/sdk_pay_spacer_xs" android:layout_weight="1.0" android:layout_marginVertical="@dimen/sdk_pay_spacer_xs">
+            <TextView android:textColor="?sdk_pay_text_primary" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/sdk_pay_bonuses_title" style="@style/Body.Body10" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sdk_pay_spacer_xxxs">
+                <TextView android:textColor="?sdk_pay_text_secondary" android:id="@id/sdk_pay_bonuses_total_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawableRight="@drawable/sdk_pay_ic_bonuses" android:drawablePadding="@dimen/sdk_pay_spacer_xxxs" android:layout_marginEnd="@dimen/sdk_pay_spacer_xxs" app:drawableEndCompat="@drawable/sdk_pay_ic_bonuses" style="@style/Body.Body30" />
+                <TextView android:textColor="?sdk_pay_text_secondary" android:id="@id/sdk_pay_bonuses_withdraw_count" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Body.Body30" />
+                <TextView android:textColor="?sdk_pay_text_secondary" android:id="@id/sdk_pay_bonuses_status_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Body.Body30" />
+            </LinearLayout>
+        </LinearLayout>
+        <ru.rustore.sdk.pay.internal.presentation.ui.view.SdkPaySwitchView android:layout_gravity="center_vertical" android:id="@id/sdk_pay_bonuses_switcher" android:layout_width="@dimen/sdk_pay_switch_width" android:layout_height="@dimen/sdk_pay_switch_height" />
+    </LinearLayout>
+</LinearLayout>

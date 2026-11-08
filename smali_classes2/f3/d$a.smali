@@ -1,0 +1,29 @@
+.class public abstract Lf3/d$a;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lf3/d;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "a"
+.end annotation
+
+
+# direct methods
+.method public static a(Lf3/d;Le3/f;I)Z
+    .locals 0
+
+    .line 1
+    const-string p0, "descriptor"
+
+    invoke-static {p1, p0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const/4 p0, 0x1
+
+    return p0
+.end method

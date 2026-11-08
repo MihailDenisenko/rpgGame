@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingBottom="8.0dp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="16.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/lunar_console_edit_variable_default_value" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="8.0dp" />
+    <ViewStub android:id="@id/lunar_console_edit_variable_value_stub" android:layout="@layout/lunar_console_layout_edit_variable_value" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="8.0dp" />
+    <ViewStub android:id="@id/lunar_console_edit_variable_range_stub" android:layout="@layout/lunar_console_layout_edit_variable_range" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="8.0dp" />
+    <ViewStub android:id="@id/lunar_console_edit_variable_enum_stub" android:layout="@layout/lunar_console_layout_edit_variable_enum" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="8.0dp" />
+</LinearLayout>

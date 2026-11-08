@@ -1,0 +1,240 @@
+.class public final Lru/rustore/sdk/reactive/single/SingleMapError$subscribe$wrappedObserver$1;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lru/rustore/sdk/reactive/single/SingleObserver;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lru/rustore/sdk/reactive/single/SingleMapError;->subscribe(Lru/rustore/sdk/reactive/single/SingleObserver;)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;",
+        "Lru/rustore/sdk/reactive/single/SingleObserver<",
+        "TT;>;"
+    }
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000!\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u0002\n\u0000\n\u0002\u0010\u0003\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0004*\u0001\u0000\u0008\n\u0018\u00002\u0008\u0012\u0004\u0012\u00028\u00000\u0001J\u0010\u0010\u0002\u001a\u00020\u00032\u0006\u0010\u0004\u001a\u00020\u0005H\u0016J\u0010\u0010\u0006\u001a\u00020\u00032\u0006\u0010\u0007\u001a\u00020\u0008H\u0016J\u0015\u0010\t\u001a\u00020\u00032\u0006\u0010\n\u001a\u00028\u0000H\u0016\u00a2\u0006\u0002\u0010\u000b\u00a8\u0006\u000c"
+    }
+    d2 = {
+        "ru/rustore/sdk/reactive/single/SingleMapError$subscribe$wrappedObserver$1",
+        "Lru/rustore/sdk/reactive/single/SingleObserver;",
+        "onError",
+        "",
+        "e",
+        "",
+        "onSubscribe",
+        "d",
+        "Lru/rustore/sdk/reactive/core/Disposable;",
+        "onSuccess",
+        "item",
+        "(Ljava/lang/Object;)V",
+        "sdk-public-reactive_release"
+    }
+    k = 0x1
+    mv = {
+        0x1,
+        0x8,
+        0x0
+    }
+    xi = 0x30
+.end annotation
+
+
+# instance fields
+.field final synthetic $downstream:Lru/rustore/sdk/reactive/single/SingleObserver;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Lru/rustore/sdk/reactive/single/SingleObserver<",
+            "TT;>;"
+        }
+    .end annotation
+.end field
+
+.field final synthetic this$0:Lru/rustore/sdk/reactive/single/SingleMapError;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Lru/rustore/sdk/reactive/single/SingleMapError<",
+            "TT;>;"
+        }
+    .end annotation
+.end field
+
+
+# direct methods
+.method constructor <init>(Lru/rustore/sdk/reactive/single/SingleObserver;Lru/rustore/sdk/reactive/single/SingleMapError;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lru/rustore/sdk/reactive/single/SingleObserver<",
+            "TT;>;",
+            "Lru/rustore/sdk/reactive/single/SingleMapError<",
+            "TT;>;)V"
+        }
+    .end annotation
+
+    .line 1
+    .line 2
+    iput-object p1, p0, Lru/rustore/sdk/reactive/single/SingleMapError$subscribe$wrappedObserver$1;->$downstream:Lru/rustore/sdk/reactive/single/SingleObserver;
+
+    .line 3
+    .line 4
+    iput-object p2, p0, Lru/rustore/sdk/reactive/single/SingleMapError$subscribe$wrappedObserver$1;->this$0:Lru/rustore/sdk/reactive/single/SingleMapError;
+
+    .line 5
+    .line 6
+    .line 7
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 8
+    return-void
+.end method
+
+
+# virtual methods
+.method public onError(Ljava/lang/Throwable;)V
+    .locals 2
+
+    .line 1
+    .line 2
+    const-string v0, "e"
+
+    .line 3
+    .line 4
+    .line 5
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 6
+    .line 7
+    :try_start_0
+    iget-object v0, p0, Lru/rustore/sdk/reactive/single/SingleMapError$subscribe$wrappedObserver$1;->this$0:Lru/rustore/sdk/reactive/single/SingleMapError;
+
+    .line 8
+    .line 9
+    .line 10
+    invoke-static {v0}, Lru/rustore/sdk/reactive/single/SingleMapError;->access$getMapper$p(Lru/rustore/sdk/reactive/single/SingleMapError;)Lkotlin/jvm/functions/Function1;
+
+    .line 11
+    move-result-object v0
+
+    .line 12
+    .line 13
+    .line 14
+    invoke-interface {v0, p1}, Lkotlin/jvm/functions/Function1;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 15
+    move-result-object v0
+
+    .line 16
+    .line 17
+    check-cast v0, Ljava/lang/Throwable;
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    .line 18
+    goto :goto_0
+
+    .line 19
+    :catchall_0
+    move-exception v0
+
+    .line 20
+    .line 21
+    new-instance v1, Lru/rustore/sdk/reactive/core/CompositeException;
+
+    .line 22
+    .line 23
+    .line 24
+    invoke-static {v0}, Lkotlin/ExceptionsKt;->stackTraceToString(Ljava/lang/Throwable;)Ljava/lang/String;
+
+    .line 25
+    move-result-object v0
+
+    .line 26
+    .line 27
+    .line 28
+    filled-new-array {p1}, [Ljava/lang/Throwable;
+
+    .line 29
+    move-result-object p1
+
+    .line 30
+    .line 31
+    .line 32
+    invoke-direct {v1, v0, p1}, Lru/rustore/sdk/reactive/core/CompositeException;-><init>(Ljava/lang/String;[Ljava/lang/Throwable;)V
+
+    .line 33
+    move-object v0, v1
+
+    .line 34
+    .line 35
+    :goto_0
+    iget-object p1, p0, Lru/rustore/sdk/reactive/single/SingleMapError$subscribe$wrappedObserver$1;->$downstream:Lru/rustore/sdk/reactive/single/SingleObserver;
+
+    .line 36
+    .line 37
+    .line 38
+    invoke-interface {p1, v0}, Lru/rustore/sdk/reactive/single/SingleObserver;->onError(Ljava/lang/Throwable;)V
+
+    .line 39
+    return-void
+.end method
+
+.method public onSubscribe(Lru/rustore/sdk/reactive/core/Disposable;)V
+    .locals 1
+
+    .line 1
+    .line 2
+    const-string v0, "d"
+
+    .line 3
+    .line 4
+    .line 5
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 6
+    .line 7
+    iget-object v0, p0, Lru/rustore/sdk/reactive/single/SingleMapError$subscribe$wrappedObserver$1;->$downstream:Lru/rustore/sdk/reactive/single/SingleObserver;
+
+    .line 8
+    .line 9
+    .line 10
+    invoke-interface {v0, p1}, Lru/rustore/sdk/reactive/single/SingleObserver;->onSubscribe(Lru/rustore/sdk/reactive/core/Disposable;)V
+
+    .line 11
+    return-void
+.end method
+
+.method public onSuccess(Ljava/lang/Object;)V
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(TT;)V"
+        }
+    .end annotation
+
+    .line 1
+    .line 2
+    iget-object v0, p0, Lru/rustore/sdk/reactive/single/SingleMapError$subscribe$wrappedObserver$1;->$downstream:Lru/rustore/sdk/reactive/single/SingleObserver;
+
+    .line 3
+    .line 4
+    .line 5
+    invoke-interface {v0, p1}, Lru/rustore/sdk/reactive/single/SingleObserver;->onSuccess(Ljava/lang/Object;)V
+
+    .line 6
+    return-void
+.end method

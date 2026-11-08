@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/lunar_console_color_table_background" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/lunar_console_fake_status_bar" android:text="@string/lunar_console_title_actions_view" android:layout_alignParentTop="true" style="@style/lunar_console_fake_status_bar_style" />
+    <LinearLayout android:orientation="vertical" android:id="@id/lunar_console_actions_view" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@id/lunar_console_fake_status_bar">
+        <LinearLayout android:orientation="horizontal" android:background="@color/lunar_console_color_table_title_background" android:layout_width="match_parent" android:layout_height="48.0dp">
+            <EditText android:id="@id/lunar_console_action_view_text_edit_filter" android:hint="Filter" style="@style/lunar_console_filter_edit_text_style" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/lunar_console_action_view_list_container" android:paddingBottom="48.0dp" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/lunar_console_actions_warning_view" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dp" android:src="@drawable/lunar_console_actions_empty_warning" />
+            <TextView android:paddingLeft="16.0dp" android:paddingRight="16.0dp" android:text="@string/lunar_console_no_actions_warning" style="@style/lunar_console_no_actions_style" />
+        </LinearLayout>
+        <Button android:id="@id/lunar_console_no_actions_button_help" android:layout_marginBottom="12.0dp" android:text="@string/lunar_console_no_actions_button_learn_more" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" style="@style/lunar_console_hyperlink_button_style" />
+    </RelativeLayout>
+</RelativeLayout>

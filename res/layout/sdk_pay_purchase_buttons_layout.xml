@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/basic_purchase_button_layout" android:visibility="gone" layout="@layout/sdk_pay_purchase_button_layout" />
+    <include android:id="@id/sbp_purchase_button" android:visibility="gone" layout="@layout/sdk_pay_sbp_purchase_button" />
+    <include android:id="@id/sber_pay_purchase_button" android:visibility="gone" layout="@layout/sdk_pay_sber_pay_purchase_button" />
+    <include android:id="@id/erip_purchase_button" android:visibility="gone" layout="@layout/sdk_pay_erip_purchase_button" />
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="end" android:orientation="horizontal" android:id="@id/sdk_pay_bonuses_accumulate_view" android:background="@drawable/sdk_pay_bg_accumulate_bonuses" android:padding="@dimen/sdk_pay_spacer_xxs" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sdk_pay_spacer_xxxs" android:layout_marginEnd="@dimen/sdk_pay_spacer_xxxl">
+        <TextView android:textColor="?sdk_pay_text_primary" android:gravity="center" android:id="@id/sdk_pay_bonuses_accumulate_count" android:background="@drawable/sdk_pay_bg_accumulate_bonuses_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawablePadding="@dimen/sdk_pay_spacer_xxxs" android:drawableEnd="@drawable/sdk_pay_ic_bonuses" app:drawableEndCompat="@drawable/sdk_pay_ic_bonuses" style="@style/Subheadline20" />
+    </LinearLayout>
+</FrameLayout>

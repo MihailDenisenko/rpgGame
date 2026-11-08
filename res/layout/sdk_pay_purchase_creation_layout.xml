@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:background="?sdk_pay_surface_primary" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/content_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+        <include android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/sdk_pay_component_horizontal_padding" android:layout_marginRight="@dimen/sdk_pay_component_horizontal_padding" android:layout_marginHorizontal="@dimen/sdk_pay_component_horizontal_padding" layout="@layout/sdk_pay_pay_title_layout" />
+        <androidx.core.widget.NestedScrollView android:scrollbarThumbVertical="?sdk_pay_icon_quaternary" android:background="?sdk_pay_bg_primary" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0" android:fadeScrollbars="false">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:background="@drawable/sdk_pay_bg_bottom_island_item" android:paddingLeft="@dimen/sdk_pay_spacer_xs" android:paddingRight="@dimen/sdk_pay_spacer_xs" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/sdk_pay_spacer_xs">
+                    <Space android:layout_width="match_parent" android:layout_height="@dimen/sdk_pay_spacer_m" />
+                    <include layout="@layout/sdk_pay_product_details_layout" />
+                    <include android:id="@id/price_cell" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/sdk_pay_spacer_s" android:layout_marginTop="@dimen/sdk_pay_spacer_m" android:layout_marginRight="@dimen/sdk_pay_spacer_s" android:layout_marginHorizontal="@dimen/sdk_pay_spacer_s" layout="@layout/sdk_pay_purchase_price_cell" />
+                    <include android:id="@id/price_details_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/sdk_pay_spacer_s" android:layout_marginTop="@dimen/sdk_pay_spacer_m" android:layout_marginRight="@dimen/sdk_pay_spacer_s" android:layout_marginHorizontal="@dimen/sdk_pay_spacer_s" layout="@layout/sdk_pay_calculations_cell" />
+                    <include android:id="@id/subscription_tariffs_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/sdk_pay_spacer_s" android:layout_marginTop="@dimen/sdk_pay_spacer_m" android:layout_marginRight="@dimen/sdk_pay_spacer_s" android:layout_marginHorizontal="@dimen/sdk_pay_spacer_s" layout="@layout/sdk_pay_subscription_tariffs_cell" />
+                    <Space android:layout_width="match_parent" android:layout_height="@dimen/sdk_pay_spacer_m" />
+                </LinearLayout>
+                <Space android:layout_width="match_parent" android:layout_height="@dimen/sdk_pay_spacer_xs" />
+                <LinearLayout android:orientation="vertical" android:id="@id/sdk_pay_root_discount_layout" android:background="@drawable/sdk_pay_bg_island_item" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/sdk_pay_spacer_xs">
+                    <Space android:layout_width="match_parent" android:layout_height="@dimen/sdk_pay_spacer_xxs" />
+                    <include android:visibility="gone" layout="@layout/sdk_pay_coupons_cell" />
+                    <include android:visibility="gone" layout="@layout/sdk_pay_bonuses_cell" />
+                    <Space android:layout_width="match_parent" android:layout_height="@dimen/sdk_pay_spacer_xxs" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:background="@drawable/sdk_pay_bg_top_island_item" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <include android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sdk_pay_spacer_m" layout="@layout/sdk_pay_payment_method_cell" />
+                    <Space android:layout_width="match_parent" android:layout_height="@dimen/sdk_pay_spacer_xs" />
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+        <FrameLayout android:id="@id/discount_error_anchor" android:layout_width="match_parent" android:layout_height="1.0dp" />
+        <include layout="@layout/sdk_pay_purchase_buttons_layout" />
+        <TextView android:textColor="?sdk_pay_text_secondary" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/unauthorized_conditions" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/sdk_pay_spacer_l" android:layout_marginRight="@dimen/sdk_pay_spacer_l" android:layout_marginBottom="@dimen/sdk_pay_spacer_xs" android:layout_marginHorizontal="@dimen/sdk_pay_spacer_l" style="@style/Captions.Caption20" />
+        <TextView android:textColor="?sdk_pay_text_secondary" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/offer_consent" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/sdk_pay_spacer_l" android:layout_marginRight="@dimen/sdk_pay_spacer_l" android:layout_marginBottom="@dimen/sdk_pay_spacer_xs" android:layout_marginHorizontal="@dimen/sdk_pay_spacer_l" style="@style/Captions.Caption20" />
+        <include android:layout_gravity="center_horizontal" android:id="@id/subscription_promo_tariff_purchase_content" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/sdk_pay_sub_promo_tariff_purchase_layout" />
+    </LinearLayout>
+    <FrameLayout android:gravity="center" android:layout_gravity="center" android:id="@id/progress_indicator_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:minHeight="@dimen/sdk_pay_bottom_sheet_dialog_content_min_height">
+        <FrameLayout android:background="?sdk_pay_surface_primary" android:layout_width="match_parent" android:layout_height="match_parent" android:alpha="0.88" />
+        <com.google.android.material.progressindicator.CircularProgressIndicator android:layout_gravity="center" android:id="@id/progress_indicator" android:layout_width="@dimen/sdk_pay_progress_bar_size" android:layout_height="@dimen/sdk_pay_progress_bar_size" android:indeterminate="true" app:indicatorColor="?sdk_pay_icon_accent" app:trackCornerRadius="@dimen/sdk_pay_progress_bar_radius" />
+    </FrameLayout>
+</FrameLayout>

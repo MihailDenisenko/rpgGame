@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/sdk_pay_coupon_list_item_background" android:padding="@dimen/sdk_pay_spacer_s" android:layout_width="@dimen/sdk_pay_coupon_item_width" android:layout_height="@dimen/sdk_pay_coupon_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center_vertical" android:id="@id/sdk_pay_coupon_icon_bg" android:background="@drawable/sdk_pay_coupon_item_bg" android:layout_width="@dimen/sdk_pay_coupon_item_icon_size" android:layout_height="@dimen/sdk_pay_coupon_item_icon_size">
+        <ImageView android:layout_gravity="center" android:id="@id/sdk_pay_coupon_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/sdk_pay_ic_coupon_item" />
+    </FrameLayout>
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/sdk_pay_spacer_xs" android:layout_marginRight="@dimen/sdk_pay_spacer_xs" android:layout_weight="1.0" android:layout_marginHorizontal="@dimen/sdk_pay_spacer_xs">
+        <TextView android:textColor="?sdk_pay_text_primary" android:id="@id/sdk_pay_coupon_item_nominal" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Subheadline20" />
+        <TextView android:textColor="?sdk_pay_text_primary" android:ellipsize="end" android:id="@id/sdk_pay_coupon_item_interval" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" style="@style/Captions.Caption20" />
+    </LinearLayout>
+    <ru.rustore.sdk.pay.internal.presentation.ui.view.SdkPaySwitchView android:layout_gravity="center_vertical" android:id="@id/sdk_pay_coupon_item_switch" android:layout_width="@dimen/sdk_pay_switch_width" android:layout_height="@dimen/sdk_pay_switch_height" />
+</LinearLayout>

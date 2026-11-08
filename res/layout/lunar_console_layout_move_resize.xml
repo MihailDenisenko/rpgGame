@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" style="@style/lunar_console_move_resize_view_style"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/lunar_console_resize_bar_top_left" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentStart="true" style="@style/lunar_console_move_resize_corner_handle_style" />
+    <ImageView android:id="@id/lunar_console_resize_bar_top_right" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" style="@style/lunar_console_move_resize_corner_handle_style" />
+    <ImageView android:id="@id/lunar_console_resize_bar_top" android:layout_toLeftOf="@id/lunar_console_resize_bar_top_right" android:layout_toRightOf="@id/lunar_console_resize_bar_top_left" android:layout_alignParentTop="true" style="@style/lunar_console_move_resize_horizontal_handle_style" />
+    <ImageView android:id="@id/lunar_console_resize_bar_left" android:layout_above="@id/lunar_console_resize_bar_bottom_left" android:layout_below="@id/lunar_console_resize_bar_top_left" android:layout_alignParentLeft="true" style="@style/lunar_console_move_resize_vertical_handle_style" />
+    <ImageView android:id="@id/lunar_console_resize_bar_right" android:layout_above="@id/lunar_console_resize_button_close" android:layout_below="@id/lunar_console_resize_bar_top_right" android:layout_alignParentRight="true" style="@style/lunar_console_move_resize_vertical_handle_style" />
+    <ImageView android:id="@id/lunar_console_resize_bar_bottom_left" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" android:layout_alignParentStart="true" style="@style/lunar_console_move_resize_corner_handle_style" />
+    <ImageButton android:id="@id/lunar_console_resize_button_close" android:src="@drawable/lunar_console_icon_button_close" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true" style="@style/lunar_console_base_button_style" />
+    <ImageView android:id="@id/lunar_console_resize_bar_bottom" android:layout_toLeftOf="@id/lunar_console_resize_button_close" android:layout_toRightOf="@id/lunar_console_resize_bar_bottom_left" android:layout_alignParentBottom="true" style="@style/lunar_console_move_resize_horizontal_handle_style" />
+    <TextView android:text="@string/lunar_console_move_resize_hint" android:layout_centerHorizontal="true" android:layout_centerVertical="true" style="@style/lunar_console_move_resize_hint_style" />
+</RelativeLayout>

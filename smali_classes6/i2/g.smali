@@ -1,0 +1,36 @@
+.class public final synthetic Li2/g;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Ljava/lang/Runnable;
+
+
+# instance fields
+.field public final synthetic a:Lcom/tapjoy/TJConnectListener;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lcom/tapjoy/TJConnectListener;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Li2/g;->a:Lcom/tapjoy/TJConnectListener;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final run()V
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Li2/g;->a:Lcom/tapjoy/TJConnectListener;
+
+    invoke-static {v0}, Lcom/tapjoy/internal/h1;->b(Lcom/tapjoy/TJConnectListener;)V
+
+    return-void
+.end method

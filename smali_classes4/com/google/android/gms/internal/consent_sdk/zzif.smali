@@ -1,0 +1,378 @@
+.class public final Lcom/google/android/gms/internal/consent_sdk/zzif;
+.super Lcom/google/android/gms/internal/consent_sdk/zzqm;
+.source "SourceFile"
+
+# interfaces
+.implements Lcom/google/android/gms/internal/consent_sdk/zzrr;
+
+
+# static fields
+.field private static final zzb:Lcom/google/android/gms/internal/consent_sdk/zzif;
+
+
+# instance fields
+.field private zzd:I
+
+.field private zze:I
+
+.field private zzf:Ljava/lang/Object;
+
+.field private zzg:J
+
+.field private zzh:I
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 2
+
+    .line 1
+    .line 2
+    new-instance v0, Lcom/google/android/gms/internal/consent_sdk/zzif;
+
+    .line 3
+    .line 4
+    .line 5
+    invoke-direct {v0}, Lcom/google/android/gms/internal/consent_sdk/zzif;-><init>()V
+
+    .line 6
+    .line 7
+    sput-object v0, Lcom/google/android/gms/internal/consent_sdk/zzif;->zzb:Lcom/google/android/gms/internal/consent_sdk/zzif;
+
+    .line 8
+    .line 9
+    const-class v1, Lcom/google/android/gms/internal/consent_sdk/zzif;
+
+    .line 10
+    .line 11
+    .line 12
+    invoke-static {v1, v0}, Lcom/google/android/gms/internal/consent_sdk/zzqm;->zzz(Ljava/lang/Class;Lcom/google/android/gms/internal/consent_sdk/zzqm;)V
+
+    .line 13
+    return-void
+.end method
+
+.method private constructor <init>()V
+    .locals 1
+
+    .line 1
+    .line 2
+    .line 3
+    invoke-direct {p0}, Lcom/google/android/gms/internal/consent_sdk/zzqm;-><init>()V
+
+    .line 4
+    const/4 v0, 0x0
+
+    .line 5
+    .line 6
+    iput v0, p0, Lcom/google/android/gms/internal/consent_sdk/zzif;->zze:I
+
+    .line 7
+    return-void
+.end method
+
+.method public static zza()Lcom/google/android/gms/internal/consent_sdk/zzid;
+    .locals 1
+
+    .line 1
+    .line 2
+    sget-object v0, Lcom/google/android/gms/internal/consent_sdk/zzif;->zzb:Lcom/google/android/gms/internal/consent_sdk/zzif;
+
+    .line 3
+    .line 4
+    .line 5
+    invoke-virtual {v0}, Lcom/google/android/gms/internal/consent_sdk/zzqm;->zzp()Lcom/google/android/gms/internal/consent_sdk/zzqj;
+
+    .line 6
+    move-result-object v0
+
+    .line 7
+    .line 8
+    check-cast v0, Lcom/google/android/gms/internal/consent_sdk/zzid;
+
+    .line 9
+    return-object v0
+.end method
+
+.method static bridge synthetic zzc()Lcom/google/android/gms/internal/consent_sdk/zzif;
+    .locals 1
+
+    sget-object v0, Lcom/google/android/gms/internal/consent_sdk/zzif;->zzb:Lcom/google/android/gms/internal/consent_sdk/zzif;
+
+    return-object v0
+.end method
+
+.method static synthetic zzd(Lcom/google/android/gms/internal/consent_sdk/zzif;Lcom/google/android/gms/internal/consent_sdk/zzhc;)V
+    .locals 0
+
+    .line 1
+    .line 2
+    .line 3
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 4
+    .line 5
+    iput-object p1, p0, Lcom/google/android/gms/internal/consent_sdk/zzif;->zzf:Ljava/lang/Object;
+
+    .line 6
+    .line 7
+    const/16 p1, 0x26
+
+    .line 8
+    .line 9
+    iput p1, p0, Lcom/google/android/gms/internal/consent_sdk/zzif;->zze:I
+
+    .line 10
+    return-void
+.end method
+
+.method static synthetic zze(Lcom/google/android/gms/internal/consent_sdk/zzif;J)V
+    .locals 1
+
+    iget v0, p0, Lcom/google/android/gms/internal/consent_sdk/zzif;->zzd:I
+
+    or-int/lit8 v0, v0, 0x1
+
+    iput v0, p0, Lcom/google/android/gms/internal/consent_sdk/zzif;->zzd:I
+
+    iput-wide p1, p0, Lcom/google/android/gms/internal/consent_sdk/zzif;->zzg:J
+
+    return-void
+.end method
+
+
+# virtual methods
+.method protected final zzb(ILjava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 29
+
+    .line 1
+    .line 2
+    add-int/lit8 v0, p1, -0x1
+
+    .line 3
+    .line 4
+    if-eqz v0, :cond_4
+
+    .line 5
+    const/4 v1, 0x2
+
+    .line 6
+    .line 7
+    if-eq v0, v1, :cond_3
+
+    .line 8
+    const/4 v1, 0x3
+
+    .line 9
+    .line 10
+    if-eq v0, v1, :cond_2
+
+    .line 11
+    const/4 v1, 0x4
+
+    .line 12
+    const/4 v2, 0x0
+
+    .line 13
+    .line 14
+    if-eq v0, v1, :cond_1
+
+    .line 15
+    const/4 v1, 0x5
+
+    .line 16
+    .line 17
+    if-ne v0, v1, :cond_0
+
+    .line 18
+    .line 19
+    sget-object v0, Lcom/google/android/gms/internal/consent_sdk/zzif;->zzb:Lcom/google/android/gms/internal/consent_sdk/zzif;
+
+    .line 20
+    return-object v0
+
+    .line 21
+    :cond_0
+    throw v2
+
+    .line 22
+    .line 23
+    :cond_1
+    new-instance v0, Lcom/google/android/gms/internal/consent_sdk/zzid;
+
+    .line 24
+    .line 25
+    .line 26
+    invoke-direct {v0, v2}, Lcom/google/android/gms/internal/consent_sdk/zzid;-><init>(Lcom/google/android/gms/internal/consent_sdk/zzie;)V
+
+    .line 27
+    return-object v0
+
+    .line 28
+    .line 29
+    :cond_2
+    new-instance v0, Lcom/google/android/gms/internal/consent_sdk/zzif;
+
+    .line 30
+    .line 31
+    .line 32
+    invoke-direct {v0}, Lcom/google/android/gms/internal/consent_sdk/zzif;-><init>()V
+
+    .line 33
+    return-object v0
+
+    .line 34
+    .line 35
+    :cond_3
+    const-class v27, Lcom/google/android/gms/internal/consent_sdk/zznu;
+
+    .line 36
+    .line 37
+    const-class v28, Lcom/google/android/gms/internal/consent_sdk/zzhc;
+
+    .line 38
+    .line 39
+    const-string v1, "zzf"
+
+    .line 40
+    .line 41
+    const-string v2, "zze"
+
+    .line 42
+    .line 43
+    const-string v3, "zzd"
+
+    .line 44
+    .line 45
+    const-class v4, Lcom/google/android/gms/internal/consent_sdk/zzla;
+
+    .line 46
+    .line 47
+    const-string v5, "zzg"
+
+    .line 48
+    .line 49
+    const-class v6, Lcom/google/android/gms/internal/consent_sdk/zzlz;
+
+    .line 50
+    .line 51
+    const-class v7, Lcom/google/android/gms/internal/consent_sdk/zziw;
+
+    .line 52
+    .line 53
+    const-class v8, Lcom/google/android/gms/internal/consent_sdk/zzfa;
+
+    .line 54
+    .line 55
+    const-class v9, Lcom/google/android/gms/internal/consent_sdk/zzkc;
+
+    .line 56
+    .line 57
+    const-class v10, Lcom/google/android/gms/internal/consent_sdk/zzfo;
+
+    .line 58
+    .line 59
+    const-class v11, Lcom/google/android/gms/internal/consent_sdk/zzic;
+
+    .line 60
+    .line 61
+    const-class v12, Lcom/google/android/gms/internal/consent_sdk/zzfh;
+
+    .line 62
+    .line 63
+    const-class v13, Lcom/google/android/gms/internal/consent_sdk/zzgg;
+
+    .line 64
+    .line 65
+    const-class v14, Lcom/google/android/gms/internal/consent_sdk/zzjf;
+
+    .line 66
+    .line 67
+    const-class v15, Lcom/google/android/gms/internal/consent_sdk/zzjo;
+
+    .line 68
+    .line 69
+    const-class v16, Lcom/google/android/gms/internal/consent_sdk/zznp;
+
+    .line 70
+    .line 71
+    const-class v17, Lcom/google/android/gms/internal/consent_sdk/zzlo;
+
+    .line 72
+    .line 73
+    const-class v18, Lcom/google/android/gms/internal/consent_sdk/zzok;
+
+    .line 74
+    .line 75
+    const-string v19, "zzh"
+
+    .line 76
+    .line 77
+    const-class v20, Lcom/google/android/gms/internal/consent_sdk/zzoh;
+
+    .line 78
+    .line 79
+    const-class v21, Lcom/google/android/gms/internal/consent_sdk/zzme;
+
+    .line 80
+    .line 81
+    const-class v22, Lcom/google/android/gms/internal/consent_sdk/zzgr;
+
+    .line 82
+    .line 83
+    const-class v23, Lcom/google/android/gms/internal/consent_sdk/zznb;
+
+    .line 84
+    .line 85
+    const-class v24, Lcom/google/android/gms/internal/consent_sdk/zzmx;
+
+    .line 86
+    .line 87
+    const-class v25, Lcom/google/android/gms/internal/consent_sdk/zzfr;
+
+    .line 88
+    .line 89
+    const-class v26, Lcom/google/android/gms/internal/consent_sdk/zzoo;
+
+    .line 90
+    .line 91
+    .line 92
+    filled-new-array/range {v1 .. v28}, [Ljava/lang/Object;
+
+    .line 93
+    move-result-object v0
+
+    .line 94
+    .line 95
+    sget-object v1, Lcom/google/android/gms/internal/consent_sdk/zzif;->zzb:Lcom/google/android/gms/internal/consent_sdk/zzif;
+
+    .line 96
+    .line 97
+    const-string v2, "\u0004\u0019\u0001\u0001\u0008&\u0019\u0000\u0000\u0000\u0008<\u0000\t\u1002\u0000\u000b<\u0000\u000c<\u0000\r<\u0000\u000f<\u0000\u0011<\u0000\u0012<\u0000\u0013<\u0000\u0014<\u0000\u0015<\u0000\u0016<\u0000\u0019<\u0000\u001a<\u0000\u001b<\u0000\u001d\u1004\u0001\u001e<\u0000\u001f<\u0000 <\u0000!<\u0000\"<\u0000#<\u0000$<\u0000%<\u0000&<\u0000"
+
+    .line 98
+    .line 99
+    .line 100
+    invoke-static {v1, v2, v0}, Lcom/google/android/gms/internal/consent_sdk/zzqm;->zzw(Lcom/google/android/gms/internal/consent_sdk/zzrq;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 101
+    move-result-object v0
+
+    .line 102
+    return-object v0
+
+    .line 103
+    :cond_4
+    const/4 v0, 0x1
+
+    .line 104
+    .line 105
+    .line 106
+    invoke-static {v0}, Ljava/lang/Byte;->valueOf(B)Ljava/lang/Byte;
+
+    .line 107
+    move-result-object v0
+
+    .line 108
+    return-object v0
+.end method

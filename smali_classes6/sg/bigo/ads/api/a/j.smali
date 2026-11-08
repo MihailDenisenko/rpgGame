@@ -1,0 +1,12 @@
+.class public interface abstract Lsg/bigo/ads/api/a/j;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# virtual methods
+.method public abstract a(I)Z
+    .param p1    # I
+        .annotation build Landroidx/annotation/IntRange;
+        .end annotation
+    .end param
+.end method

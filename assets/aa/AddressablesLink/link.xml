@@ -1,0 +1,320 @@
+<linker>
+  <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Codebase.Abilities.Vfx.AbilityHitVfxBinder" preserve="all" />
+    <type fullname="Codebase.Abilities.Vfx.ShockVfxBinder" preserve="all" />
+    <type fullname="CodeBase.Audio.AudioSourcePlay" preserve="all" />
+    <type fullname="Codebase.Core.UI.PopupBackground" preserve="all" />
+    <type fullname="Codebase.Core.UI.TooltipView" preserve="all" />
+    <type fullname="Codebase.DebugTools.ConsolePopupView" preserve="all" />
+    <type fullname="Codebase.Particles.SoftParticlesGpuWorkaround" preserve="all" />
+    <type fullname="Codebase.Player.Inventory.ItemConfig" preserve="all" />
+    <type fullname="Codebase.Player.WeaponView" preserve="all" />
+    <type fullname="Codebase.ProximityView.ProximityViewHideAnimation" preserve="all" />
+    <type fullname="Codebase.UI.AlertDialogView" preserve="all" />
+    <type fullname="Codebase.UI.Amulet.AmuletGraphLevelButton" preserve="all" />
+    <type fullname="Codebase.UI.Amulet.AmuletGraphLevelUnlockView" preserve="all" />
+    <type fullname="Codebase.UI.Amulet.AmuletProgressPopupView" preserve="all" />
+    <type fullname="Codebase.UI.Amulet.AmuletSoulCurrencyView" preserve="all" />
+    <type fullname="Codebase.UI.Amulet.AmuletSoulHarvestedView" preserve="all" />
+    <type fullname="Codebase.UI.Amulet.AmuletTutorialView" preserve="all" />
+    <type fullname="Codebase.UI.Amulet.AmuletUnlockView" preserve="all" />
+    <type fullname="Codebase.UI.Amulet.AmuletUpgradeGraphView" preserve="all" />
+    <type fullname="Codebase.UI.Amulet.AmuletUpgradeNodeTooltipView" preserve="all" />
+    <type fullname="Codebase.UI.Amulet.AmuletUpgradeNodeView" preserve="all" />
+    <type fullname="Codebase.UI.Amulet.BezierPathGraphic" preserve="all" />
+    <type fullname="Codebase.UI.Amulet.SoulView" preserve="all" />
+    <type fullname="Codebase.UI.BossTower.BossRaidDefeatView" preserve="all" />
+    <type fullname="Codebase.UI.BossTower.BossRaidRewardView" preserve="all" />
+    <type fullname="Codebase.UI.BossTower.BossRaidVictoryView" preserve="all" />
+    <type fullname="Codebase.UI.BossTower.BossTowerBossDetailsView" preserve="all" />
+    <type fullname="Codebase.UI.BossTower.BossTowerBossItemView" preserve="all" />
+    <type fullname="Codebase.UI.BossTower.BossTowerHubView" preserve="all" />
+    <type fullname="Codebase.UI.BossTower.BossTowerLeaveView" preserve="all" />
+    <type fullname="Codebase.UI.BossTower.BossTowerPortalUnlockView" preserve="all" />
+    <type fullname="Codebase.UI.BossTower.BossTowerUpgradeDescriptionView" preserve="all" />
+    <type fullname="Codebase.UI.BossTower.BossTutorialView" preserve="all" />
+    <type fullname="Codebase.UI.BossTower.HitCellsBar" preserve="all" />
+    <type fullname="Codebase.UI.BossTower.HitSegmentCell" preserve="all" />
+    <type fullname="Codebase.UI.ButtonClickPlayer" preserve="all" />
+    <type fullname="Codebase.UI.Crystals.AmuletCrystalContextView" preserve="all" />
+    <type fullname="Codebase.UI.Crystals.AmuletCrystalEnchantmentResultView" preserve="all" />
+    <type fullname="Codebase.UI.Crystals.AmuletCrystalItemView" preserve="all" />
+    <type fullname="Codebase.UI.Crystals.AmuletCrystalRarityChancesView" preserve="all" />
+    <type fullname="Codebase.UI.Crystals.AmuletCrystalRarityChanceView" preserve="all" />
+    <type fullname="Codebase.UI.Crystals.AmuletCrystalsBlacksmithView" preserve="all" />
+    <type fullname="Codebase.UI.Crystals.AmuletCrystalsEnchantmentTutorialView" preserve="all" />
+    <type fullname="Codebase.UI.Crystals.AmuletCrystalsEnchantmentView" preserve="all" />
+    <type fullname="Codebase.UI.Crystals.AmuletCrystalSlotView" preserve="all" />
+    <type fullname="Codebase.UI.Crystals.AmuletCrystalsView" preserve="all" />
+    <type fullname="Codebase.UI.Crystals.AmuletCrystalUpgradeItemView" preserve="all" />
+    <type fullname="Codebase.UI.Crystals.AmuletCrystalUpgradesView" preserve="all" />
+    <type fullname="Codebase.UI.Crystals.BlacksmithGeodeView" preserve="all" />
+    <type fullname="Codebase.UI.Crystals.CrystalEnchantLifeItemView" preserve="all" />
+    <type fullname="Codebase.UI.Crystals.CrystalEnchantLifesView" preserve="all" />
+    <type fullname="Codebase.UI.Crystals.CrystalEnchantStepView" preserve="all" />
+    <type fullname="Codebase.UI.Crystals.CrystalGeodeMiniView" preserve="all" />
+    <type fullname="Codebase.UI.Crystals.CrystalRespawnedView" preserve="all" />
+    <type fullname="Codebase.UI.Crystals.CrystalStatFilterItemView" preserve="all" />
+    <type fullname="Codebase.UI.Crystals.CrystalStatsFilterView" preserve="all" />
+    <type fullname="Codebase.UI.Crystals.CrystalsTutorialView" preserve="all" />
+    <type fullname="Codebase.UI.Crystals.CrystalsUnlockView" preserve="all" />
+    <type fullname="Codebase.UI.CurrencyView" preserve="all" />
+    <type fullname="Codebase.UI.Events.BossHuntProgressView" preserve="all" />
+    <type fullname="Codebase.UI.Events.DifficultyButton" preserve="all" />
+    <type fullname="Codebase.UI.Events.EventBoosterView" preserve="all" />
+    <type fullname="Codebase.UI.Events.EventCurrencyView" preserve="all" />
+    <type fullname="Codebase.UI.Events.EventEndView" preserve="all" />
+    <type fullname="Codebase.UI.Events.EventProgressBarView" preserve="all" />
+    <type fullname="Codebase.UI.Events.EventProgressStageView" preserve="all" />
+    <type fullname="Codebase.UI.Events.EventProgressView" preserve="all" />
+    <type fullname="Codebase.UI.Events.EventStartView" preserve="all" />
+    <type fullname="Codebase.UI.Events.EventTimeIsOverView" preserve="all" />
+    <type fullname="Codebase.UI.Events.EventTutorialView" preserve="all" />
+    <type fullname="Codebase.UI.Events.RewardView" preserve="all" />
+    <type fullname="Codebase.UI.Events.RosterDivider" preserve="all" />
+    <type fullname="Codebase.UI.Events.RosterEventEndView" preserve="all" />
+    <type fullname="Codebase.UI.Events.RosterEventLeagueNotificationView" preserve="all" />
+    <type fullname="Codebase.UI.Events.RosterEventMilestoneNavButton" preserve="all" />
+    <type fullname="Codebase.UI.Events.RosterEventMilestoneView" preserve="all" />
+    <type fullname="Codebase.UI.Events.RosterEventProgressView" preserve="all" />
+    <type fullname="Codebase.UI.Events.RosterEventRewardsView" preserve="all" />
+    <type fullname="Codebase.UI.Events.RosterEventStartView" preserve="all" />
+    <type fullname="Codebase.UI.Events.RosterEventTimeIsOverView" preserve="all" />
+    <type fullname="Codebase.UI.Events.RosterLeagueProgressPanel" preserve="all" />
+    <type fullname="Codebase.UI.Events.RosterMilestoneChestsPanel" preserve="all" />
+    <type fullname="Codebase.UI.Events.RosterProgressFill" preserve="all" />
+    <type fullname="Codebase.UI.Events.RosterStagesExpandPanel" preserve="all" />
+    <type fullname="Codebase.UI.Events.RosterStageView" preserve="all" />
+    <type fullname="Codebase.UI.GemsHudOffer.GemsHudOfferPopupView" preserve="all" />
+    <type fullname="Codebase.UI.GlobalUpdateFeatureView" preserve="all" />
+    <type fullname="Codebase.UI.GlobalUpdatePageIndicatorView" preserve="all" />
+    <type fullname="Codebase.UI.GlobalUpdateScreenView" preserve="all" />
+    <type fullname="Codebase.UI.Inventory.EvolveItemView" preserve="all" />
+    <type fullname="Codebase.UI.Inventory.InventoryItemView" preserve="all" />
+    <type fullname="Codebase.UI.Inventory.ItemAbilitiesView" preserve="all" />
+    <type fullname="Codebase.UI.Inventory.ItemAbilityView" preserve="all" />
+    <type fullname="Codebase.UI.Inventory.ItemMiniView" preserve="all" />
+    <type fullname="Codebase.UI.Inventory.ItemStarsView" preserve="all" />
+    <type fullname="Codebase.UI.IslandMastery.IslandMedalTierView" preserve="all" />
+    <type fullname="Codebase.UI.IslandMastery.IslandMedalUpgradeView" preserve="all" />
+    <type fullname="Codebase.UI.IslandNotification.IslandNotificationMapInfoView" preserve="all" />
+    <type fullname="Codebase.UI.ItemSlotUnlockView" preserve="all" />
+    <type fullname="Codebase.UI.LevelPass.LevelPassIslandTextView" preserve="all" />
+    <type fullname="Codebase.UI.LevelPass.LevelPassPurchaseView" preserve="all" />
+    <type fullname="Codebase.UI.LevelPass.LevelPassStageView" preserve="all" />
+    <type fullname="Codebase.UI.LevelPass.LevelPassView" preserve="all" />
+    <type fullname="Codebase.UI.LocalizedText" preserve="all" />
+    <type fullname="Codebase.UI.Mail.MailAttachmentView" preserve="all" />
+    <type fullname="Codebase.UI.PendingOrderView" preserve="all" />
+    <type fullname="Codebase.UI.PurchaseRewardView" preserve="all" />
+    <type fullname="Codebase.UI.Quests.QuestItemView" preserve="all" />
+    <type fullname="Codebase.UI.Quests.QuestNpcDialogueView" preserve="all" />
+    <type fullname="Codebase.UI.Quests.QuestPopupView" preserve="all" />
+    <type fullname="Codebase.UI.Quests.QuestRewardItemView" preserve="all" />
+    <type fullname="Codebase.UI.Quests.QuestsWindowView" preserve="all" />
+    <type fullname="Codebase.UI.RateUs.RateUsView" preserve="all" />
+    <type fullname="Codebase.UI.RewardedOffer.RewardedOfferLotView" preserve="all" />
+    <type fullname="Codebase.UI.RewardedOffer.RewardedOfferPopupView" preserve="all" />
+    <type fullname="Codebase.UI.SafeAreaFitter" preserve="all" />
+    <type fullname="Codebase.UI.SafeAreaHeightFitter" preserve="all" />
+    <type fullname="Codebase.UI.ScrollRectEndDragNotifier" preserve="all" />
+    <type fullname="Codebase.UI.SecretChest.SecretChestPromptView" preserve="all" />
+    <type fullname="Codebase.UI.Settings.SettingNotificationsMenuView" preserve="all" />
+    <type fullname="Codebase.UI.Settings.SettingNotificationTypeSwitch" preserve="all" />
+    <type fullname="Codebase.UI.Settings.SettingPromoCodeView" preserve="all" />
+    <type fullname="Codebase.UI.Settings.SettingsLanguageOptionView" preserve="all" />
+    <type fullname="Codebase.UI.Settings.SettingsLanguageSelectView" preserve="all" />
+    <type fullname="Codebase.UI.Shop.BuyGemsLotView" preserve="all" />
+    <type fullname="Codebase.UI.Shop.BuyGemsPopupView" preserve="all" />
+    <type fullname="Codebase.UI.Shop.ChestItemChancesInfoView" preserve="all" />
+    <type fullname="Codebase.UI.Shop.ChestOpenView" preserve="all" />
+    <type fullname="Codebase.UI.Shop.ChestRarityChanceItemView" preserve="all" />
+    <type fullname="Codebase.UI.Shop.ChestsInfoView" preserve="all" />
+    <type fullname="Codebase.UI.Shop.CrystalChestRarityItemView" preserve="all" />
+    <type fullname="Codebase.UI.Shop.CurrencyFlyAnimator" preserve="all" />
+    <type fullname="Codebase.UI.Shop.CurrencyView" preserve="all" />
+    <type fullname="Codebase.UI.Shop.FirstBuyPackView" preserve="all" />
+    <type fullname="Codebase.UI.Shop.FlexibleGridLayout" preserve="all" />
+    <type fullname="Codebase.UI.Shop.NoAdsBannerView" preserve="all" />
+    <type fullname="Codebase.UI.Shop.ShopABTestUnlocker" preserve="all" />
+    <type fullname="Codebase.UI.Shop.ShopContainerView" preserve="all" />
+    <type fullname="Codebase.UI.Shop.ShopItemGemsFx" preserve="all" />
+    <type fullname="Codebase.UI.Shop.ShopItemIconView" preserve="all" />
+    <type fullname="Codebase.UI.Shop.ShopItemRarityContainer" preserve="all" />
+    <type fullname="Codebase.UI.Shop.ShopItemView" preserve="all" />
+    <type fullname="Codebase.UI.Shop.ShopOfferBannerView" preserve="all" />
+    <type fullname="Codebase.UI.Shop.ShopOfferRewardItemView" preserve="all" />
+    <type fullname="Codebase.UI.Shop.ShopRarityItemView" preserve="all" />
+    <type fullname="Codebase.UI.Shop.ShopTabButtonView" preserve="all" />
+    <type fullname="Codebase.UI.Shop.ShopTimerView" preserve="all" />
+    <type fullname="Codebase.UI.Shop.ShopView" preserve="all" />
+    <type fullname="Codebase.UI.Stats.StatDescriptionView" preserve="all" />
+    <type fullname="Codebase.UI.Stats.StatDetailsPopupView" preserve="all" />
+    <type fullname="Codebase.UI.Stats.StatSourceRowView" preserve="all" />
+    <type fullname="Codebase.UI.Stats.StatSourceView" preserve="all" />
+    <type fullname="Codebase.UI.TypewriterText" preserve="all" />
+    <type fullname="Codebase.UI.Utilities.AdaptiveFlowLayout" preserve="all" />
+    <type fullname="Codebase.UI.Utilities.BlurShadow" preserve="all" />
+    <type fullname="Codebase.UI.Utilities.ImageOverlay" preserve="all" />
+    <type fullname="Codebase.UI.Utilities.MockupReference" preserve="all" />
+    <type fullname="Codebase.UI.VIP.VipCurrencyView" preserve="all" />
+    <type fullname="Codebase.UI.VIP.VipFeatureDescriptionView" preserve="all" />
+    <type fullname="Codebase.UI.VIP.VipLocationNotificationView" preserve="all" />
+    <type fullname="Codebase.UI.VIP.VipProgressPopupView" preserve="all" />
+    <type fullname="Codebase.UI.VIP.VipView" preserve="all" />
+    <type fullname="Codebase.UI.VisibilityAnimator" preserve="all" />
+    <type fullname="Codebase.Utilities.GameObjectGroup" preserve="all" />
+    <type fullname="Codebase.Utilities.TextLayoutUpdater" preserve="all" />
+    <type fullname="EpicToonFX.ETFXRotation" preserve="all" />
+    <type fullname="LayoutGroupDrivenSize" preserve="all" />
+    <type fullname="Codebase.Abilities.AbilityDef" preserve="nothing" serialized="true" />
+    <type fullname="Codebase.Abilities.AbilityLevelScale" preserve="nothing" serialized="true" />
+    <type fullname="Codebase.Abilities.Conditions.ChanceCondition" preserve="nothing" serialized="true" />
+    <type fullname="Codebase.Abilities.Conditions.WearingItemCondition" preserve="nothing" serialized="true" />
+    <type fullname="Codebase.Abilities.Effects.AddStatEffect" preserve="nothing" serialized="true" />
+    <type fullname="Codebase.Abilities.Effects.AddStatPassiveEffect" preserve="nothing" serialized="true" />
+    <type fullname="Codebase.Abilities.Effects.AllWeaponsDamageMultiplierEffect" preserve="nothing" serialized="true" />
+    <type fullname="Codebase.Abilities.Effects.BoostAbilityValueEffect" preserve="nothing" serialized="true" />
+    <type fullname="Codebase.UI.Settings.SettingsLanguageOption" preserve="nothing" serialized="true" />
+    <type fullname="Codebase.UI.Shop.ShopItemIconSet" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="BrunoMikoski.AnimationSequencer, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="BrunoMikoski.AnimationSequencer.AnimationSequencerController" preserve="all" />
+    <type fullname="BrunoMikoski.AnimationSequencer.AnchoredPositionMoveToPositionDOTweenActionBase" preserve="nothing" serialized="true" />
+    <type fullname="BrunoMikoski.AnimationSequencer.DOTweenAnimationStep" preserve="nothing" serialized="true" />
+    <type fullname="BrunoMikoski.AnimationSequencer.FadeCanvasGroupDOTweenAction" preserve="nothing" serialized="true" />
+    <type fullname="BrunoMikoski.AnimationSequencer.FadeGraphicDOTweenAction" preserve="nothing" serialized="true" />
+    <type fullname="BrunoMikoski.AnimationSequencer.FillImageDOTweenAction" preserve="nothing" serialized="true" />
+    <type fullname="BrunoMikoski.AnimationSequencer.InvokeCallbackAnimationStep" preserve="nothing" serialized="true" />
+    <type fullname="BrunoMikoski.AnimationSequencer.MoveToPositionDOTweenActionBase" preserve="nothing" serialized="true" />
+    <type fullname="BrunoMikoski.AnimationSequencer.MoveToTargetDOTweenActionBase" preserve="nothing" serialized="true" />
+    <type fullname="BrunoMikoski.AnimationSequencer.PunchPositionDOTweenAction" preserve="nothing" serialized="true" />
+    <type fullname="BrunoMikoski.AnimationSequencer.PunchScaleDOTweenAction" preserve="nothing" serialized="true" />
+    <type fullname="BrunoMikoski.AnimationSequencer.RectTransformSizeDOTweenAction" preserve="nothing" serialized="true" />
+    <type fullname="BrunoMikoski.AnimationSequencer.RotateToEulerAnglesFromTransformRotateDOTweenAction" preserve="nothing" serialized="true" />
+    <type fullname="BrunoMikoski.AnimationSequencer.RotateToEulerAnglesRotateDOTweenAction" preserve="nothing" serialized="true" />
+    <type fullname="BrunoMikoski.AnimationSequencer.ScaleDOTweenAction" preserve="nothing" serialized="true" />
+    <type fullname="BrunoMikoski.AnimationSequencer.SetGameObjectActiveStep" preserve="nothing" serialized="true" />
+    <type fullname="BrunoMikoski.AnimationSequencer.SetTargetRectTransformPropertiesStep" preserve="nothing" serialized="true" />
+    <type fullname="BrunoMikoski.AnimationSequencer.ShakePositionDOTweenAction" preserve="nothing" serialized="true" />
+    <type fullname="BrunoMikoski.AnimationSequencer.ShakeScaleDOTweenAction" preserve="nothing" serialized="true" />
+    <type fullname="BrunoMikoski.AnimationSequencer.WaitForIntervalStep" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="ParticleImage, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="AssetKits.ParticleImage.ParticleImage" preserve="all" />
+    <type fullname="AssetKits.ParticleImage.ParticleTrailRenderer" preserve="all" />
+    <type fullname="AssetKits.ParticleImage.Burst" preserve="nothing" serialized="true" />
+    <type fullname="AssetKits.ParticleImage.Module" preserve="nothing" serialized="true" />
+    <type fullname="AssetKits.ParticleImage.SeparatedMinMaxCurve" preserve="nothing" serialized="true" />
+    <type fullname="AssetKits.ParticleImage.SpeedRange" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
+    <type fullname="UnityEngine.AddressableAssets.Addressables" preserve="all" />
+  </assembly>
+  <assembly fullname="Unity.ResourceManager, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.AssetBundleProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.BundledAssetProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.InstanceProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.SceneProvider" preserve="all" />
+  </assembly>
+  <assembly fullname="Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="TMPro.TextMeshProUGUI" preserve="all" />
+    <type fullname="TMPro.TMP_FontAsset" preserve="all" />
+    <type fullname="TMPro.TMP_InputField" preserve="all" />
+    <type fullname="TMPro.FaceInfo_Legacy" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.FontAssetCreationSettings" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.KerningTable" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.LigatureSubstitutionRecord" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_Character" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_FontFeatureTable" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_FontWeightPair" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_InputField/OnChangeEvent" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_InputField/SelectionEvent" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_InputField/SubmitEvent" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_InputField/TextSelectionEvent" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_InputField/TouchScreenKeyboardEvent" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.VertexGradient" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEditor.Audio.AudioMixerSnapshotController" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Audio.AudioMixer" preserve="all" />
+    <type fullname="UnityEngine.Audio.AudioMixerGroup" preserve="all" />
+    <type fullname="UnityEngine.AudioClip" preserve="all" />
+    <type fullname="UnityEngine.AudioSource" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.GameObject" preserve="all" />
+    <type fullname="UnityEngine.Material" preserve="all" />
+    <type fullname="UnityEngine.Mesh" preserve="all" />
+    <type fullname="UnityEngine.MeshFilter" preserve="all" />
+    <type fullname="UnityEngine.MeshRenderer" preserve="all" />
+    <type fullname="UnityEngine.MonoBehaviour" preserve="all" />
+    <type fullname="UnityEngine.Object" preserve="all" />
+    <type fullname="UnityEngine.RectTransform" preserve="all" />
+    <type fullname="UnityEngine.Shader" preserve="all" />
+    <type fullname="UnityEngine.Sprite" preserve="all" />
+    <type fullname="UnityEngine.Texture2D" preserve="all" />
+    <type fullname="UnityEngine.Transform" preserve="all" />
+    <type fullname="UnityEngine.U2D.SpriteAtlas" preserve="all" />
+    <type fullname="UnityEngine.Events.ArgumentCache" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Events.PersistentCallGroup" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Events.PersistentListenerMode" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Events.UnityEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.RectOffset" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="UnityEngine.ParticleSystemModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.ParticleSystem" preserve="all" />
+    <type fullname="UnityEngine.ParticleSystemRenderer" preserve="all" />
+    <type fullname="UnityEngine.ParticleSystem/MinMaxCurve" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.ParticleSystem/MinMaxGradient" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="UnityEngine.PhysicsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.MeshCollider" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.TextRenderingModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Font" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.UI.Button" preserve="all" />
+    <type fullname="UnityEngine.UI.ContentSizeFitter" preserve="all" />
+    <type fullname="UnityEngine.UI.GraphicRaycaster" preserve="all" />
+    <type fullname="UnityEngine.UI.GridLayoutGroup" preserve="all" />
+    <type fullname="UnityEngine.UI.HorizontalLayoutGroup" preserve="all" />
+    <type fullname="UnityEngine.UI.Image" preserve="all" />
+    <type fullname="UnityEngine.UI.LayoutElement" preserve="all" />
+    <type fullname="UnityEngine.UI.Mask" preserve="all" />
+    <type fullname="UnityEngine.UI.RectMask2D" preserve="all" />
+    <type fullname="UnityEngine.UI.Scrollbar" preserve="all" />
+    <type fullname="UnityEngine.UI.ScrollRect" preserve="all" />
+    <type fullname="UnityEngine.UI.Shadow" preserve="all" />
+    <type fullname="UnityEngine.UI.Slider" preserve="all" />
+    <type fullname="UnityEngine.UI.Toggle" preserve="all" />
+    <type fullname="UnityEngine.UI.VerticalLayoutGroup" preserve="all" />
+    <type fullname="UnityEngine.UI.AnimationTriggers" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.Button/ButtonClickedEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.ColorBlock" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.MaskableGraphic/CullStateChangedEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.Navigation" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.ScrollRect/ScrollRectEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.Scrollbar/ScrollEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.Slider/SliderEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.SpriteState" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.Toggle/ToggleEvent" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="UnityEngine.UIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Canvas" preserve="all" />
+    <type fullname="UnityEngine.CanvasGroup" preserve="all" />
+    <type fullname="UnityEngine.CanvasRenderer" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.TextCoreFontEngineModule">
+    <type fullname="UnityEngine.TextCore.FaceInfo" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.TextCore.Glyph" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.TextCore.GlyphMetrics" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.TextCore.GlyphRect" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.TextCore.LowLevel.GlyphAdjustmentRecord" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.TextCore.LowLevel.GlyphPairAdjustmentRecord" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.TextCore.LowLevel.GlyphValueRecord" preserve="nothing" serialized="true" />
+  </assembly>
+</linker>
